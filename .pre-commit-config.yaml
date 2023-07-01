@@ -4,6 +4,7 @@ repos:
     hooks:
       - id: markdownlint
         name: check markdown
+        exclude: ^content/search.md$|^content/archive.md$
         args:
           - -r
           - ~MD002,~MD013,~MD024,~MD026,~MD028,~MD034
